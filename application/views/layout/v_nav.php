@@ -124,7 +124,7 @@
 
 
                 <a href="" class="dropdown-toggle waves-effect user-link" data-toggle="dropdown" aria-expanded="true">
-                    <img src="<?= base_url()?>indosvie/assets/images/users/users.png" alt="user-img" class="img-circle user-img">
+                    <img src="<?= base_url()?>codeigniter/indosvie/assets/images/users/users.png" alt="user-img" class="img-circle user-img">
                 </a>
 
 
