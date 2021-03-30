@@ -2,12 +2,12 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Manage_member extends CI_Controller {
+class Manage_movie extends CI_Controller {
 
     public function index()
     {
         $data = array('judul' => 'Halaman Manage Movie', 
-                        'isi'  => 'v_manage_member');
+                        'isi'  => 'v_manage_movie');
                            
         $this->load->view('layout/v_wrapper', $data, FALSE);
     }
@@ -15,7 +15,7 @@ class Manage_member extends CI_Controller {
     public function add()
     {
         $data = array('judul' => 'Halaman Add Movie', 
-                        'isi'  => 'v_add_member');
+                        'isi'  => 'v_add_movie');
                            
         $this->load->view('layout/v_wrapper', $data, FALSE);
     }

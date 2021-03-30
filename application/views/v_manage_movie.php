@@ -39,7 +39,7 @@
                                         <div class="col-md-12">
                                             <div class="demo-box m-t-20">
 <div class="m-b-30">
-<a href="<?= base_url('manage_member/add')?>">
+<a href="<?= base_url('manage_movie/add')?>">
 <button id="addToTable" class="btn btn-success waves-effect waves-light">Add <i class="mdi mdi-plus-circle-outline" ></i></button>
 </a>
  </div>
@@ -48,12 +48,11 @@
                                                     <table class="table m-0 table-colored-bordered table-bordered-primary">
                                                         <thead>
                                                             <tr>
-                                                                <th>#</th>
-                                                                <th>Nama</th>
-                                                                <th>Division</th>
-                                                          
-                                                                <th>Email</th>
-                                                                  <th>Username</th>
+                                                            <th>#</th>
+                                                                <th>Judul</th>
+                                                                <th>Kategori</th>
+                                                                <th>Link</th>
+                                                                <th>Deskripsi</th>
                                                                 <th>Created</th>
                                                                 <th>Updated</th>
                                                                 <th>Action</th>
@@ -104,11 +103,10 @@
                                                         <thead>
                                                             <tr>
                                                                 <th>#</th>
-                                                                <th>Nama</th>
-                                                                <th>Division</th>
-                                                          
-                                                                <th>Email</th>
-                                                                  <th>Username</th>
+                                                                <th>Judul</th>
+                                                                <th>Kategori</th>
+                                                                <th>Link</th>
+                                                                <th>Deskripsi</th>
                                                                 <th>Created</th>
                                                                 <th>Updated</th>
                                                                 <th>Action</th>

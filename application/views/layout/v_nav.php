@@ -167,8 +167,8 @@
             <li class="has_sub">
                 <a href="javascript:void(0);" class="waves-effect"><i class="glyphicon glyphicon-film"></i> <span> Manage Movie </span> <span class="menu-arrow"></span></a>
                 <ul class="list-unstyled">
-                    <li><a href="<?= base_url('manage_member/add') ?>">Add Movie</a></li>
-                    <li><a href="<?= base_url('manage_member') ?>">Manage Movie</a></li>
+                    <li><a href="<?= base_url('manage_movie/add') ?>">Add Movie</a></li>
+                    <li><a href="<?= base_url('manage_movie') ?>">Manage Movie</a></li>
                 </ul>
             </li>
 

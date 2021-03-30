@@ -45,7 +45,7 @@
 <form name="addpost" method="post" enctype="multipart/form-data">
     <div class="form-group m-b-20">
         <label>Judul Film</label>
-        <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukan Nama Lengkap" required>
+        <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukan Judul Film" required>
     </div>
 
     <div class="form-group m-b-20">
@@ -60,12 +60,12 @@
 
     <div class="form-group m-b-20">
         <label>Link</label>
-        <input type="email" class="form-control" id="email" name="email" placeholder="Masukan Email" required>
+        <input type="text" class="form-control" id="link" name="link" placeholder="Masukan Link" required>
     </div>
 
     <div class="form-group m-b-20">
         <label>Deskripsi</label>
-        <input type="text" class="form-control" name="username" placeholder="Username" required />
+        <input type="text" class="form-control" name="desk" placeholder="Masukan Deskripsi" required />
     </div>
 
     <div class="row">
@@ -85,4 +85,9 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- end row -->
+                        
+                    </div> <!-- container -->
+
+</div> <!-- content -->
+
+                   
